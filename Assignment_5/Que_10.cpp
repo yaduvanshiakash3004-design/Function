@@ -28,7 +28,7 @@ int main() {
     if(isLowerTriangular)
         cout << "true";
     else
-        cout << "false";
+        cout  << "false";
 
     return 0;
 }
