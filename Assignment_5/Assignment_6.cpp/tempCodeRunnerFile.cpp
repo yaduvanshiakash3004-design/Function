@@ -6,26 +6,20 @@ int main()
     string s;
     cin >> s;
 
-    int i = 0;
-    int j = s.length() - 1;
-
-    bool isPalindrome = true;
-
-    while (i < j)
+    for (int i = 0; i < s.length(); i++)
     {
-        if (s[i] != s[j])
+
+        if (i % 2 == 0)
         {
-            isPalindrome = false;
-            break;
+            s[i] = s[i] + 1;
         }
-        i++;
-        j--;
+        else
+        {
+            s[i] = s[i] - 1;
+        }
     }
 
-    if (isPalindrome)
-        cout << "true";
-    else
-        cout << "false";
+    cout << s;
 
     return 0;
 }

@@ -1,16 +1,21 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     string s;
     cin >> s;
 
-    for (int i = 0; i < s.length(); i++) {
+    for (int i = 0; i < s.length(); i++)
+    {
 
-        if (i % 2 == 0) {
-            s[i] = s[i] + 1;  
-        } else {
-            s[i] = s[i] - 1;  
+        if (i % 2 == 0)
+        {
+            s[i] = s[i] + 1;
+        }
+        else
+        {
+            s[i] = s[i] - 1;
         }
     }
 
