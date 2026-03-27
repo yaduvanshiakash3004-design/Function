@@ -1,14 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     string s;
     cin >> s;
 
     int freq[256] = {0};
 
     // Count frequency
-    for (char ch : s) {
+    for (char ch : s)
+    {
         freq[ch]++;
     }
 
@@ -16,14 +18,16 @@ int main() {
     int maxFreq = 0;
 
     // Find max frequency character
-    for (char ch : s) {
-        if (freq[ch] > maxFreq) {
+    for (char ch : s)
+    {
+        if (freq[ch] > maxFreq)
+        {
             maxFreq = freq[ch];
             ans = ch;
         }
     }
 
-    cout << ans;
+    cout  << ans;
 
     return 0;
 }
