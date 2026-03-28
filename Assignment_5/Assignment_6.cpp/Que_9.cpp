@@ -23,7 +23,8 @@ int main() {
 
         sort(arr.begin(), arr.end(), compare);
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+         {
             cout << arr[i];
         }
 
