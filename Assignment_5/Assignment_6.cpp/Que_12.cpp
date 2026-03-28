@@ -18,6 +18,7 @@ int main()
             s[i] = s[i] - 1;
         }
     }
+    
 
     cout << s;
 
