@@ -12,7 +12,8 @@ int main() {
         if (i < s.length() - 1 && s[i] == s[i + 1]) {
             count++;
         } 
-        else {
+        else 
+        {
             cout << s[i] << count;
             count = 1; 
         }
