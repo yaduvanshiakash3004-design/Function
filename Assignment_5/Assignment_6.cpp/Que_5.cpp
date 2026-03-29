@@ -16,7 +16,8 @@ int main() {
            
             cout << s[i];
 
-            if (count > 1) {
+            if (count > 1) 
+            {
                 cout << count;
             }
 
