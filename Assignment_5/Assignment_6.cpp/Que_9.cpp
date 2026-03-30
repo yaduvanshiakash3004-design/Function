@@ -21,7 +21,7 @@ int main() {
             cin >> arr[i];
         }
 
-        sort(arr.begin(), arr.end(), compare);
+        sort(arr.begin() , arr.end(), compare);
 
         for (int i = 0; i < n; i++)
          {
