@@ -11,6 +11,7 @@ int main() {
 
         if (i < s.length() - 1 && s[i] == s[i + 1]) {
             count++;
+            
         } 
         else 
         {
