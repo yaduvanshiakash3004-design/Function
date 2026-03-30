@@ -14,7 +14,8 @@ int main() {
             if (count > maxLen) {
                 maxLen = count;
             }
-        } else 
+        }
+         else 
         {
             count = 0; 
         }
