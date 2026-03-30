@@ -9,7 +9,8 @@ int main() {
 
     for (int i = 0; i < s.length(); i++) {
 
-        if (isupper(s[i]) && i != 0) {
+        if (isupper(s[i]) && i != 0) 
+        {
             cout << word << endl;
             word = "";
         }
