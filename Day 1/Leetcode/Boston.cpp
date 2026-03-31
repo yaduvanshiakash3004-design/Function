@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// function to find digit sum
+
 int digitSum(int n)
 {
     int sum = 0;
