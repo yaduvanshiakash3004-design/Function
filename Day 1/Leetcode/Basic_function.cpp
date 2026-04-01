@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// function 1
+
 int sum(int a, int b)
 {
     return a + b;
