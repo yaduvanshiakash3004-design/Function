@@ -31,9 +31,10 @@ int main() {
     Solution sol;
 
     vector<int> nums = {2,3,-1,8,4};
-    
+
 
     int result = sol.findMiddleIndex(nums);
+    
 
     cout << "Middle Index: " << result << endl;
 
