@@ -1,7 +1,8 @@
 #include <vector>
 using namespace std;
 
-class Solution {
+class Solution 
+{
 public:
     int removeElement(vector<int>& nums, int val) {
         int k = 0;
