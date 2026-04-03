@@ -47,7 +47,8 @@ int main() {
         if (canPaint(boards, n, k, mid)) {
             answer = mid;
             high = mid - 1;   // try smaller time
-        } else {
+        } else 
+        {
             low = mid + 1;    // need more time
         }
     }
