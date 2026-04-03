@@ -56,7 +56,8 @@ int main(){
 	    cin>>n>>m;
 
 	    vector<int> arr(n);
-	    for(int i=0;i<n;i++){
+	    for(int i=0;i<n;i++)
+        {
 		   cin>>arr[i];
 	    }
         cout<<allocateBooks(arr,n,m)<<endl;
