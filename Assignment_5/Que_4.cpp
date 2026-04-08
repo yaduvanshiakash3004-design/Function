@@ -24,7 +24,8 @@ int main() {
             cout << 1;
             return 0;
         }
-        else if(arr[i][j] > x){
+        else if(arr[i][j] > x)
+        {
             j--;
         }
         else{
