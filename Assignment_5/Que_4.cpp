@@ -27,6 +27,7 @@ int main() {
         else if(arr[i][j] > x)
         {
             j--;
+            
         }
         else{
             i++;
