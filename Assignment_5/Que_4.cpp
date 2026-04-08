@@ -20,14 +20,15 @@ int main() {
     int j = m - 1;
 
     while(i < n && j >= 0){
-        if(arr[i][j] == x){
+        if(arr[i][j] == x)
+        {
             cout << 1;
             return 0;
         }
         else if(arr[i][j] > x)
         {
             j--;
-            
+
         }
         else{
             i++;
