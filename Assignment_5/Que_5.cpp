@@ -35,7 +35,8 @@ int main(){
             bottom--;
         }
         if(left<=right){
-            for(int j=bottom;j>=top;j--){
+            for(int j=bottom;j>=top;j--)
+            {
                 cout<<arr[j][left]<<", ";
             }
             left++;
