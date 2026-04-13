@@ -58,7 +58,8 @@ public:
 };
 
 // Function to print list (for testing)
-void display(ListNode* node) {
+void display(ListNode* node)
+ {
     while (node != NULL) {
         cout << node->val;
         if (node->next) cout << " -> ";
@@ -75,7 +76,7 @@ int main()
     l1->next->next = new ListNode(3);
 
     // Second number: 465 (stored as 5 -> 6 -> 4)
-    
+
     ListNode* l2 = new ListNode(5);
     l2->next = new ListNode(6);
     l2->next->next = new ListNode(4);
