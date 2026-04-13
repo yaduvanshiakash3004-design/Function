@@ -60,7 +60,8 @@ public:
 // Function to print list (for testing)
 void display(ListNode* node)
  {
-    while (node != NULL) {
+    while (node != NULL)
+     {
         cout << node->val;
         if (node->next) cout << " -> ";
         node = node->next;
