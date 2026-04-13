@@ -67,7 +67,8 @@ void display(ListNode* node) {
     cout << endl;
 }
 
-int main() {
+int main() 
+{
     // First number: 342 (stored as 2 -> 4 -> 3)
     ListNode* l1 = new ListNode(2);
     l1->next = new ListNode(4);
