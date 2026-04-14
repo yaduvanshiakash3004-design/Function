@@ -19,7 +19,8 @@ struct ListNode {
     }
 };
 
-class Solution {
+class Solution 
+{
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         // Dummy node to start the result list
