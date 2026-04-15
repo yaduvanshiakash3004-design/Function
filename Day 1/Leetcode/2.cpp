@@ -39,7 +39,8 @@ public:
             int sum = carry;
 
             // Add value from first list if present
-            if (l1 != NULL) {
+            if (l1 != NULL) 
+            {
                 sum += l1->val;
                 l1 = l1->next;
             }
