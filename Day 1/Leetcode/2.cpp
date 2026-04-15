@@ -11,6 +11,7 @@ using namespace std;
 // Basic structure of ListNode
 struct ListNode 
 {
+    
     int val;
     ListNode* next;
     ListNode(int x) 
