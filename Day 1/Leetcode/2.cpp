@@ -11,7 +11,7 @@ using namespace std;
 // Basic structure of ListNode
 struct ListNode 
 {
-    
+
     int val;
     ListNode* next;
     ListNode(int x) 
@@ -33,7 +33,8 @@ public:
         int carry = 0;
 
         // Loop until both lists end and no carry left
-        while (l1 != NULL || l2 != NULL || carry != 0) {
+        while (l1 != NULL || l2 != NULL || carry != 0) 
+        {
 
             int sum = carry;
 
