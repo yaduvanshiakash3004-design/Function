@@ -68,7 +68,6 @@ public:
 void display(ListNode* node)
  {
     while (node != NULL)
-    
      {
         cout << node->val;
         if (node->next) cout << " -> ";
