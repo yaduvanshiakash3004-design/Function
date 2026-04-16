@@ -61,6 +61,7 @@ public:
 
         // Return result (skip dummy node)
         return head->next;
+        
     }
 };
 
